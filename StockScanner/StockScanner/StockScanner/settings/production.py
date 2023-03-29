@@ -15,8 +15,8 @@ DATABASES = {
         'NAME': 'ai_algo',
         'USER': 'admin',
         'PASSWORD': '101Market*',
-        'HOST': 'localhost',
-        'PORT': '',
+        'HOST': '34.122.177.106',
+        'PORT': '5432',
     }
 }
 
