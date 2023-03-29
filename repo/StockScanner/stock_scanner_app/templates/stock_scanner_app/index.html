@@ -72,11 +72,12 @@
       Plotly.newPlot('chart', plotData, layout);
       $('.chart-container').css({ top: e.pageY - 320, left: e.pageX - 100 }).show();
     });
-
+  
     $('.symbol-cell').on('mouseleave', function() {
       $('.chart-container').hide();
     });
   });
+  
 </script>
 
 <script>
