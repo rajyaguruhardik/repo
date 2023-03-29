@@ -11,12 +11,8 @@ SECRET_KEY = '5d2_##^rs*b-28^1^w+_v!p18rwxoi#^l(f)n0jbqsef35#5-&'
 # Configure your production database settings here (e.g., Google Cloud SQL)
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'your_database_name',
-        'USER': 'your_database_user',
-        'PASSWORD': 'your_database_password',
-        'HOST': 'your_database_host',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
